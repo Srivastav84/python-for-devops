@@ -1,4 +1,5 @@
-file = open("demo.txt") # OPEN
-print(file.read()) # OPERATION
-file.write("Hello Dosto, kya haal chaal")
-file.close() # CLOSE
+file_path = r"C:\Users\great\OneDrive\Desktop\Tutedude\python-for-devops\day-02\practice\demo.txt"
+
+with open(file_path, "a", encoding="utf-8") as file:
+    file.write("\nHello Dosto, kya haal chaal")
+    # print(file.read())

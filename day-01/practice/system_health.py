@@ -6,6 +6,12 @@ import psutil
 
 # added ram details as well as beattery percentage
 
+# 🧠 Simple Analogy
+
+# CPU percent → How fast your brain is working right now ?
+
+# Virtual memory → How full is your brain’s memory ?
+
 def check_cpu_threshold():
     print("CPU_Usage :\n")
     cpu_threshold = int(input ("enter the cpu threshold:")) #done

@@ -1,0 +1,11 @@
+cmd : python -m venv venv1 
+#use in terminal of vs_code
+
+source venv1/Scripts/activate
+#use in terminal/or cmd
+
+or the other way in Vscode :
+press : ctrl + shift + P
+
+type : Python : Select Interpreter --> if it shows a venv1 select it or browse it and select python.exe in scripts folder of venv1 folder 
+it will be activated and to deactivate again same way go and de select the pytho.exe to original one.
