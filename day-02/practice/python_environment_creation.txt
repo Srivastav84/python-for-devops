@@ -9,3 +9,6 @@ press : ctrl + shift + P
 
 type : Python : Select Interpreter --> if it shows a venv1 select it or browse it and select python.exe in scripts folder of venv1 folder 
 it will be activated and to deactivate again same way go and de select the pytho.exe to original one.
+
+
+python -m pip install --upgrade pip (some times pip does not work this might be an issue)
